@@ -17,7 +17,7 @@ Creative Commons Attribution 4.0 International, CC BY 4.0 (the file named LICENS
   - the documents and data the task's environment ships: environment/repo/*.md and *.toml, *.yml, *.yaml and *.json
     outside the code above (for example the runbook, the README the agent reads, the cloud's seed data and the
     task's mock credentials), and tests/hidden.json, tests/spec.json
-  - docs/ (the dependency reviews) and README.md
+  - docs/ (the dependency reviews), results/ (the episode results) and README.md
 
 Where a file isn't listed, it is Apache-2.0.
 
