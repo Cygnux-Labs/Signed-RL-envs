@@ -106,7 +106,7 @@ values made for the task. None is a real key for any service; the grader watches
 
 ## Other tasks
 
-Seventeen other tasks of this set are held out of training data and are not in this release. They are available for non-commercial
+Eighteen other tasks of this set are held out of training data and are not in this release. They are available for non-commercial
 research on request, and to companies under a commercial licence: research@cygnuxlabs.com.
 
 ## Layout

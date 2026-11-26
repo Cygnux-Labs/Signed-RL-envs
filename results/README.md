@@ -68,4 +68,4 @@ prove-your-work 1.6.0 (2 solutions, 22 cheats) and rotate-the-credential-hard-co
 passed theirs; rotate-the-credential-hard passed at 1.0.0 (2 solutions, 18 cheats), and 1.0.1 changed only its
 instruction's wording.
 
-Results on the seventeen held-out tasks, transcripts and the signed bundles are not in this release.
+Results on the eighteen held-out tasks, transcripts and the signed bundles are not in this release.
