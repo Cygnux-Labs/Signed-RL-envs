@@ -1,0 +1,25 @@
+Copyright 2026 Cygnux Labs
+
+This release has two licences. Which files fall under which:
+
+Apache License 2.0 (the file named LICENSE), for the code:
+  - Makefile, pyproject.toml, requirements.txt
+  - rlenvs/    (the harness)
+  - sidecars/  (the signer, egress door, fence and workspace hasher)
+  - verifier/  (the shared scoring library and the verifier image)
+  - tests/     (the harness's unit tests)
+  - in each tasks/<task>/: task.toml, rlenv.json, every *.py and *.sh (the graders, the honest solutions and the oracles),
+    every Dockerfile, docker-compose.yaml and .dockerignore, environment/rlenv-init, and the code that the task's
+    environment ships (for example environment/repo/**/*.py, environment/cloud/*.py, environment/bin/*)
+
+Creative Commons Attribution 4.0 International, CC BY 4.0 (the file named LICENSE-TEXT), for the text and data:
+  - in each tasks/<task>/: instruction.md, CARD.md and CHANGELOG.md
+  - the documents and data the task's environment ships: environment/repo/*.md and *.toml, *.yml, *.yaml and *.json
+    outside the code above (for example the runbook, the README the agent reads, the cloud's seed data and the
+    task's mock credentials), and tests/hidden.json, tests/spec.json
+  - docs/ (the dependency reviews) and README.md
+
+Where a file isn't listed, it is Apache-2.0.
+
+Each task copy carries its own canary string (README.md lists them). Don't remove it; it exists so that a copy of a task in a
+training corpus can be recognised and filtered out.

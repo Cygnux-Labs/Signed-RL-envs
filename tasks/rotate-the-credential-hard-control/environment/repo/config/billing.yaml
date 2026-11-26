@@ -1,0 +1,6 @@
+# billing-worker settings
+service_account: svc-billing
+api_base: http://cloud:8080
+key_id: key-3f9a21
+api_key: sk_live_M3cMwHyPXBRpwLCUr0IAPOnV
+retries: 3

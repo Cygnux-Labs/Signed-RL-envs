@@ -1,0 +1,4 @@
+tracekit-ai==1.5.3
+mlx-lm==0.32.2
+pytest==9.2.0
+anthropic==2.6.0

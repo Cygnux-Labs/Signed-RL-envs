@@ -1,0 +1,9 @@
+[project]
+name = "signed-rl-envs"
+version = "0.1.0"
+description = "RL environments scored from effects and a signed Tracekit record"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = [".", "verifier"]
+testpaths = ["tests"]

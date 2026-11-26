@@ -1,0 +1,1 @@
+The door serves files under here for the hosts in DOOR_SERVE (serve/<host>/<path>); a task puts its own in.

@@ -1,0 +1,4 @@
+{
+ "endpoint": "http://cloud:8080",
+ "default_profile": "readonly"
+}
